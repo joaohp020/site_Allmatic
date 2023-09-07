@@ -1,3 +1,7 @@
 @import '../global/global.css';
 
-
+@import './partials/section-menu.css';
+@import './partials/section-home.css';
+@import './partials/section-about.css';
+@import './partials/section-services.css';
+@import './partials/section-contact.css';

@@ -1,0 +1,13 @@
+.home {
+  align-items: center;
+  justify-content: center;
+}
+.home img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+}

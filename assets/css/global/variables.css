@@ -1,4 +1,11 @@
 :root {
   --cor-branco: #fff;
   --cor-preto: #000;
+  --cor-cinza: #4a4a4af8;
+  --cor-laranja: #F15111;
 }
+
+/* @font-face {
+  font-family: "Montserrat";
+  src: url();
+} */

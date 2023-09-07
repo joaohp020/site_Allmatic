@@ -1,0 +1,45 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--cor-cinza);
+  position: fixed;
+  opacity: 0.7;
+}
+.logo {
+  background: var(--cor-laranja);
+  padding: 10px 50px 10px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100%;
+  max-width: 17rem;
+}
+.opcoes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  opacity: 0.5;
+}
+.opcoes a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--cor-branco);
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 700;
+}
+.orcamento {
+  background: var(--cor-laranja);
+  padding: 23px 30px 23px;
+  z-index: 3;
+  width: 100%;
+  max-width: 15.5rem;
+}
+.orcamento a {
+  color: var(--cor-branco);
+  text-decoration: none;
+}
