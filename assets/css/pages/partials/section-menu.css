@@ -1,3 +1,7 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+}
 nav {
   width: 100%;
   display: flex;
@@ -15,26 +19,26 @@ nav {
 }
 .logo img {
   width: 100%;
-  max-width: 17rem;
+  max-width: 10rem;
 }
 .opcoes {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: end;
-  opacity: 0.5;
+  margin: 0 0 0 47rem;
 }
 .opcoes a {
-  margin: 0 1rem;
+  margin: 0 0.6rem;
   text-decoration: none;
   color: var(--cor-branco);
-  font-family: "Montserrat";
+  font-family: var(--montserrat);
   font-size: 1rem;
   font-weight: 700;
 }
 .orcamento {
   background: var(--cor-laranja);
-  padding: 23px 30px 23px;
+  padding: 25px 26px 20px;
   z-index: 3;
   width: 100%;
   max-width: 15.5rem;
@@ -42,4 +46,28 @@ nav {
 .orcamento a {
   color: var(--cor-branco);
   text-decoration: none;
+  font-family: var(--montserrat);
+  font-size: 1rem;
+}
+nav i.fa {
+  display: none;
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  nav i {
+    color: var(--cor-branco);
+    font-size: 1.5rem;
+    margin: 1.3rem 1rem 0 0;
+    font-weight: 700;
+  }
+  .logo {
+    padding: 10px 25px 10px;
+  }
+  .opcoes {
+    display: none;
+  }
+  .orcamento {
+    display: none;
+  }
 }

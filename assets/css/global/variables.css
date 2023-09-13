@@ -1,11 +1,11 @@
 :root {
   --cor-branco: #fff;
   --cor-preto: #000;
+  --cor-preto-t: #0000007d;
   --cor-cinza: #4a4a4af8;
   --cor-laranja: #F15111;
-}
 
-/* @font-face {
-  font-family: "Montserrat";
-  src: url();
-} */
+  --lato-light: 'Lato-Light';
+  --lato-regular: 'Lato-Regular';
+  --montserrat: Montserrat-Medium;
+}

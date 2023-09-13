@@ -7,7 +7,69 @@
   height: 100vh;
   object-fit: cover;
 }
+.content-home {
+  display: flex;
+  position: absolute;
+  z-index: 3;
+  flex-direction: column;
+  max-width: 26rem;
+  margin: -31rem 0rem 0rem 16.5rem;
+}
+h1 {
+  color: var(--cor-branco);
+  font-size: 2.7rem;
+  letter-spacing: 1px;
+}
+h4 {
+  color: var(--cor-branco);
+  opacity: 0.6;
+  width: 100%;
+  max-width: 20rem;
+  margin: 1rem 0 0 0;
+}
+.btn-home {
+  display: flex;
+  flex-direction: row;
+  margin: 3rem 0 0 0;
+}
+a.contato {
+  width: 100%;
+  max-width: 10rem;
+  height: 3rem;
+  color: var(--cor-branco);
+  background-color: var(--cor-laranja);
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+a.saibaMais {
+  width: 100%;
+  max-width: 10rem;
+  height: 3rem;
+  color: var(--cor-branco);
+  background-color: var(--cor-preto-t);
+  border: 2px solid var(--cor-laranja);
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 1rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
 
 /* Responsivo */
 @media screen and (max-width: 1000px) {
+  .content-home {
+    max-width: 24rem;
+    margin: -25rem 0rem 0rem 1.5rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
 }
