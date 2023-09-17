@@ -1,15 +1,8 @@
 @font-face {
-    font-family: 'Lato-Light';
-    src: url('../../../files/fonts/Lato-Light.ttf');
+  font-family: "Lato";
+  src: url("../../../files/fonts/Lato-Light.ttf");
 }
 @font-face {
-    font-family: 'Lato Regular';
-    src: url('../../../files/fonts/Lato-Regular.ttf');
+  font-family: "Montserrat";
+  src: url("../../../files/fonts/Montserrat-Medium.ttf");
 }
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../../../files/fonts/Montserrat-Medium.ttf');
-}
-
-/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Lato:wght@300&display=swap'); */
-

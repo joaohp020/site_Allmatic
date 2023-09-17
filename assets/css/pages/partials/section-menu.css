@@ -6,9 +6,9 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: var(--cor-cinza);
+  background-color: var(--cor-cinza-t);
   position: fixed;
-  opacity: 0.7;
+  z-index: 1;
 }
 .logo {
   background: var(--cor-laranja);
@@ -27,27 +27,28 @@ nav {
   align-items: center;
   justify-content: end;
   margin: 0 0 0 47rem;
+  font-family: var(--montserrat);
 }
 .opcoes a {
   margin: 0 0.6rem;
   text-decoration: none;
   color: var(--cor-branco);
   font-family: var(--montserrat);
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 .orcamento {
   background: var(--cor-laranja);
-  padding: 25px 26px 20px;
+  padding: 30px 0px 30px 50px;
   z-index: 3;
   width: 100%;
-  max-width: 15.5rem;
+  max-width: 16.5rem;
 }
 .orcamento a {
   color: var(--cor-branco);
   text-decoration: none;
   font-family: var(--montserrat);
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 nav i.fa {
   display: none;

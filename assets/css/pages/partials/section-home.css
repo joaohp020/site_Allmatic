@@ -17,8 +17,9 @@
 }
 h1 {
   color: var(--cor-branco);
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   letter-spacing: 1px;
+  font-family: var(--montserrat);
 }
 h4 {
   color: var(--cor-branco);
@@ -26,6 +27,7 @@ h4 {
   width: 100%;
   max-width: 20rem;
   margin: 1rem 0 0 0;
+  font-family: var(--lato);
 }
 .btn-home {
   display: flex;
@@ -34,8 +36,8 @@ h4 {
 }
 a.contato {
   width: 100%;
-  max-width: 10rem;
-  height: 3rem;
+  max-width: 12rem;
+  height: 3.5rem;
   color: var(--cor-branco);
   background-color: var(--cor-laranja);
   text-decoration: none;
@@ -45,11 +47,16 @@ a.contato {
   justify-content: center;
   font-weight: 600;
   font-size: 0.8rem;
+  font-family: var(--montserrat);
+}
+a.contato:hover {
+  background-color: var(--cor-laranja-escuro);
+  transition: 0.7s ease;
 }
 a.saibaMais {
   width: 100%;
-  max-width: 10rem;
-  height: 3rem;
+  max-width: 12rem;
+  height: 3.5rem;
   color: var(--cor-branco);
   background-color: var(--cor-preto-t);
   border: 2px solid var(--cor-laranja);
@@ -61,6 +68,11 @@ a.saibaMais {
   margin: 0 0 0 1rem;
   font-weight: 600;
   font-size: 0.8rem;
+  font-family: var(--montserrat);
+}
+a.saibaMais:hover {
+  background-color: var(--cor-laranja);
+  transition: 0.7s ease;
 }
 
 /* Responsivo */

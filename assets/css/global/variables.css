@@ -2,10 +2,13 @@
   --cor-branco: #fff;
   --cor-preto: #000;
   --cor-preto-t: #0000007d;
-  --cor-cinza: #4a4a4af8;
+  --cor-preto-m: #28271d;
+  --cor-cinza: #e3e3e3f8;
+  --cor-cinza-t: #6666668f;
+  --cor-cinza-escuro: #4a4a4af8;
   --cor-laranja: #F15111;
+  --cor-laranja-escuro: #d0420a;
 
-  --lato-light: 'Lato-Light';
-  --lato-regular: 'Lato-Regular';
-  --montserrat: Montserrat-Medium;
+  --lato: 'Lato';
+  --montserrat: 'Montserrat';
 }
