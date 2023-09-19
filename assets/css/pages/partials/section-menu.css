@@ -29,6 +29,11 @@ nav {
   margin: 0 0 0 47rem;
   font-family: var(--montserrat);
 }
+nav.sticky {
+  z-index: 10000;
+  background-color: var(--cor-preto);
+  transition: 0.8s ease;
+}
 .opcoes a {
   margin: 0 0.6rem;
   text-decoration: none;

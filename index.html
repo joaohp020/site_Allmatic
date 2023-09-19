@@ -160,7 +160,38 @@
       <div class="title-services">
         <h2><span>Serviços</span> que prestamos</h2>
       </div>
+      <div class="mosaico">
+        <img class="imagem" src="./files/img/imagem1-min.png" />
+        <img class="imagem" src="./files/img/imagem11.jpg" />
+        <img class="imagem" src="./files/img/imagem2.jpg" />
+        <img class="imagem" src="./files/img/imagem3.jpg" />
+        <img class="imagem" src="./files/img/imagem4.jpg" />
+        <img class="imagem" src="./files/img/imagem5.jpg" />
+        <img class="imagem" src="./files/img/imagem6.jpg" />
+        <img class="imagem" src="./files/img/imagem7.jpg" />
+        <img class="imagem" src="./files/img/imagem8.jpg" />
+        <img class="imagem" src="./files/img/imagem9.jpg" />
+        <img class="imagem" src="./files/img/imagem10.jpg" />
+      </div>
     </section>
     <section id="contact" class="contact"></section>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloade@4/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      var elem = document.querySelector(".mosaico");
+      imagesLoaded(elem, () => {
+        var msnry = new Masonry(elem, {
+          itemSelector: ".imagem",
+          columnWidth: 430,
+          gutter: 20,
+        });
+      });
+    </script>
   </body>
 </html>
