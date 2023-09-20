@@ -8,12 +8,12 @@ nav {
   justify-content: space-between;
   background-color: var(--cor-cinza-t);
   position: fixed;
-  z-index: 1;
+  z-index: 2;
 }
 .logo {
   background: var(--cor-laranja);
   padding: 10px 50px 10px;
-  z-index: 2;
+  z-index: 3;
   display: flex;
   align-items: center;
 }
