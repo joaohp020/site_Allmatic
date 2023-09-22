@@ -49,6 +49,10 @@ nav.sticky {
   width: 100%;
   max-width: 16.5rem;
 }
+.orcamento:hover {
+  background-color: var(--cor-laranja-escuro);
+  transition: 0.7s ease;
+}
 .orcamento a {
   color: var(--cor-branco);
   text-decoration: none;

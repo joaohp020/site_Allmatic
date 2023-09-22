@@ -37,6 +37,11 @@
   background-color: var(--cor-cinza-escuro);
   color: var(--cor-branco);
   font-family: var(--montserrat);
+  font-size: 0.8rem;
+}
+.content-video a img {
+  width: 20px;
+  margin: 0 0.5rem 0 0;
 }
 
 /* Responsivo */

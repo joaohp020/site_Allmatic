@@ -1,6 +1,13 @@
 footer {
     display: flex;
     width: 100vw;
-    height: 12rem;
+    height: 18rem;
     background-color: var(--cor-preto-m);
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+    footer {
+        margin: -8.6rem 0 0 0;
+    }
 }

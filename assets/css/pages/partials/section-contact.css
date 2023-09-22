@@ -25,6 +25,7 @@
   flex-direction: row;
   z-index: 1;
   position: absolute;
+  margin: 25rem 0 0 0;
 }
 .formulario img {
   width: 100%;
@@ -95,4 +96,59 @@ textarea {
 
 /* Responsivo */
 @media screen and (max-width: 1000px) {
+  .contact {
+    flex-direction: column;
+    margin: 8rem 0 0 0;
+  }
+  .back-one {
+    height: 55vh;
+  }
+  .back-two {
+    height: 15vh;
+  }
+  .formulario {
+    flex-direction: row;
+    margin: 25rem 0 0 0;
+  }
+  .formulario img {
+    display: none;
+  }
+  form {
+    flex-direction: column;
+    padding: 5rem 1rem 3rem 1rem;
+  }
+  form h2 {
+    font-size: 1.8rem;
+    max-width: 19.2rem;
+    margin: 0 3rem 1rem 0;
+  }
+  form input {
+    border: 4px solid var(--cor-cinza-btn);
+    padding: 15px 3px 15px 5px;
+  }
+  .nome {
+    gap: 5px;
+  }
+  .assunto {
+    margin: 1rem 0;
+  }
+  .assunto input {
+    margin: 1rem 0;
+  }
+  textarea {
+    border: 4px solid var(--cor-cinza-btn);
+    padding: 20px 15px;
+  }
+  .enviar {
+    margin: 1rem 0;
+    gap: 20px;
+  }
+  .btn-enviar {
+    max-width: 11rem;
+    height: 3rem;
+  }
+  .btn-limpar {
+    max-width: 11rem;
+    height: 3rem;
+  }
 }

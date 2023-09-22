@@ -43,6 +43,7 @@
   text-align: center;
   background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
   transition: height 0.3s;
+  display: none;
 }
 .legenda a {
   width: 100%;
