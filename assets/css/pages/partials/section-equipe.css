@@ -1,0 +1,214 @@
+.equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 22rem 0 0 0;
+}
+.content-equipe {
+  width: 100%;
+  background-color: var(--cor-preto-m);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.desc-equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 29rem;
+}
+.desc-equipe h2 {
+  font-family: var(--montserrat);
+  font-size: 2rem;
+  color: var(--cor-branco);
+  width: 100%;
+  margin: 0 0 1rem 0;
+}
+.desc-equipe span {
+  color: var(--cor-laranja);
+}
+.desc-equipe p {
+  font-family: var(--montserrat);
+  font-size: 1rem;
+  color: var(--cor-branco);
+  opacity: 0.7;
+}
+.content-pagination {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.people-equipe {
+  cursor: grab;
+  scroll-behavior: smooth;
+}
+.people-equipe {
+  display: flex;
+  /* flex-flow: row nowrap; */
+  align-items: center;
+  width: 100%;
+  max-width: 40rem;
+  height: 30rem;
+  margin: 0 0 0 1rem;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.people-equipe::-webkit-scrollbar {
+  display: none;
+}
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.1;
+  cursor: pointer;
+  border: none;
+}
+.arrow-left {
+  position: relative;
+  left: 0;
+  right: auto;
+  width: 20px;
+  opacity: 0.1;
+  transition: all 600ms ease-in-out;
+  height: 3rem;
+  margin: 12rem 0 0 1rem;
+}
+.arrow-right {
+  position: relative;
+  left: auto;
+  right: 0;
+  width: 20px;
+  opacity: 0.1;
+  height: 3rem;
+  margin: 12rem 0 0 0;
+}
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+.card-equipe {
+  width: 100%;
+  max-width: 15rem;
+  height: 25rem;
+  /* margin: 0 0.5rem; */
+  margin-left: 14px;
+  flex-shrink: 0;
+  background-color: var(--cor-cinza);
+  cursor: pointer;
+  border-bottom: 7px solid var(--cor-laranja);
+}
+/* .current-item {
+  opacity: 1;
+  border-bottom: 7px solid var(--cor-laranja);
+  box-shadow: 0 0 10px var(--cor-cinza-t);
+} */
+.card-equipe img {
+  width: 100%;
+  object-fit: cover;
+}
+.title-people {
+  width: 100%;
+  max-width: 15rem;
+  padding: 0px 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-equipe h3 {
+  font-family: var(--lato);
+  font-size: 1.2rem;
+  margin: 1rem 0 0 1rem;
+}
+.card-equipe p {
+  font-family: var(--lato);
+  font-size: 0.9rem;
+  margin: 0.5rem 1rem 0 1rem;
+  opacity: 0.8;
+  word-wrap: break-word;
+}
+.content-parceiro {
+  width: 100vw;
+}
+.titulo-parceiro {
+  width: 100vw;
+  height: 13rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-cinza);
+}
+.titulo-parceiro h2 {
+  font-family: var(--montserrat);
+  font-size: 2rem;
+}
+.titulo-parceiro h2 span {
+  color: var(--cor-laranja);
+}
+
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  .equipe {
+    margin: 22rem 0 0 0;
+  }
+  .content-equipe {
+    flex-direction: column;
+    padding: 7rem 0;
+  }
+  .desc-equipe {
+    flex-direction: column;
+    max-width: 22rem;
+  }
+  .desc-equipe h2 {
+    font-size: 1.7rem;
+    margin: 0 0 1rem 0;
+  }
+  .desc-equipe p {
+    font-size: 1rem;
+  }
+  .content-pagination {
+    flex-direction: row;
+  }
+  .people-equipe {
+    max-width: 20rem;
+    height: 30rem;
+    margin: 0 2rem 0 0rem;
+  }
+  .card-equipe {
+    max-width: 15rem;
+    height: 25rem;
+    margin-left: 14px;
+    flex-shrink: 0;
+  }
+  .title-people {
+    max-width: 15rem;
+    padding: 0px 0.5rem;
+    flex-direction: column;
+  }
+  .card-equipe h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0 0 1rem;
+  }
+  .card-equipe p {
+    font-size: 0.9rem;
+    margin: 0.5rem 1rem 0 1rem;
+  }
+  .titulo-parceiro h2 {
+    font-size: 1.7rem;
+  }
+}
