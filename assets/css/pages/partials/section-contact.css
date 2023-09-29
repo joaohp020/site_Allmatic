@@ -29,7 +29,7 @@
 }
 .formulario img {
   width: 100%;
-  max-width: 28rem;
+  max-width: 32rem;
 }
 form {
   display: flex;
@@ -37,14 +37,14 @@ form {
   align-items: center;
   justify-content: center;
   background-color: var(--cor-branco);
-  padding: 0 1.5rem;
+  padding: 5rem 4.5rem;
 }
 form h2 {
-  font-family: var(--lato);
+  font-family: var(--montserrat);
   font-size: 2rem;
   width: 100%;
-  max-width: 19.2rem;
-  margin: 0 0 1rem 0;
+  max-width: 21.3rem;
+  margin: 0 5rem 1rem 0;
 }
 form input {
   border: 4px solid var(--cor-cinza-btn);
