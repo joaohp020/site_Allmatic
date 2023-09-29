@@ -1,7 +1,7 @@
 footer {
     display: flex;
     width: 100vw;
-    height: 18rem;
+    height: 35rem;
     background-color: var(--cor-preto-m);
 }
 
