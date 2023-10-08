@@ -62,62 +62,22 @@
 .people-equipe::-webkit-scrollbar {
   display: none;
 }
-.arrow-left,
-.arrow-right {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: auto;
-  bottom: 0;
-  font-size: 20px;
-  line-height: 250px;
-  width: 40px;
-  color: #fff;
-  transition: all 600ms ease-in-out;
-  background: linear-gradient(to left, transparent 0%, black 200%);
-  opacity: 0.1;
-  cursor: pointer;
-  border: none;
+.people-equipe.active {
+  animation: slide 0.5s linear infinite;
 }
-.arrow-left {
-  position: relative;
-  left: 0;
-  right: auto;
-  width: 20px;
-  opacity: 0.1;
-  transition: all 600ms ease-in-out;
-  height: 3rem;
-  margin: 12rem 0 0 1rem;
-}
-.arrow-right {
-  position: relative;
-  left: auto;
-  right: 0;
-  width: 20px;
-  opacity: 0.1;
-  height: 3rem;
-  margin: 12rem 0 0 0;
-}
-.arrow-left:hover,
-.arrow-right:hover {
-  opacity: 1;
+.people-equipe:hover {
+  animation-play-state: paused;
 }
 .card-equipe {
   width: 100%;
   max-width: 15rem;
   height: 25rem;
-  /* margin: 0 0.5rem; */
   margin-left: 14px;
   flex-shrink: 0;
   background-color: var(--cor-cinza);
   cursor: pointer;
   border-bottom: 7px solid var(--cor-laranja);
 }
-/* .current-item {
-  opacity: 1;
-  border-bottom: 7px solid var(--cor-laranja);
-  box-shadow: 0 0 10px var(--cor-cinza-t);
-} */
 .card-equipe img {
   width: 100%;
   object-fit: cover;

@@ -39,6 +39,11 @@
   font-family: var(--montserrat);
   font-size: 0.8rem;
 }
+.content-video a:hover {
+  color: var(--cor-laranja);
+  background-color: var(--cor-preto-m);
+  transition: 1s;
+}
 .content-video a img {
   width: 20px;
   height: 20px;

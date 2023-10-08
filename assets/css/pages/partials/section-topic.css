@@ -18,7 +18,7 @@
   color: var(--cor-branco);
   margin: 7rem 30rem 2rem 0;
   width: 100%;
-  max-width: 20rem;
+  max-width: 21rem;
 }
 .row-topic {
   display: flex;
@@ -68,6 +68,7 @@
   .topic-content h2 {
     font-size: 2rem;
     margin: 0 0 2rem 0;
+    max-width: 20rem;
   }
   .row-topic {
     flex-direction: column;
