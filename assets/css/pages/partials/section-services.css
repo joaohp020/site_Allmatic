@@ -31,7 +31,7 @@
 .item img {
   width: 100%;
   max-width: 28rem;
-  height: auto;
+  height: 14rem;
   object-fit: cover;
   position: relative;
   margin: 0 0 0.6rem 0;
