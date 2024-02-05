@@ -10,5 +10,6 @@ Site institucional de uma Empresa renomada no setor de Automação Industrial. O
 
 
 UI/UX Design.: Lucas Santos
-Development.: @joaohp020
+<br>
+Development.: João Henrique
 
