@@ -23,11 +23,12 @@ h1 {
 }
 h4 {
   color: var(--cor-branco);
-  opacity: 0.6;
+  opacity: 0.9;
   width: 100%;
   max-width: 20rem;
   margin: 1rem 0 0 0;
   font-family: var(--lato);
+  font-weight: 300;
 }
 .btn-home {
   display: flex;
